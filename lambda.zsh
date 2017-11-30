@@ -31,7 +31,7 @@
 
 
 
-lambda() {
+_lambda() {
 	local fname
 	local args
 	local functioneval=""
@@ -85,3 +85,5 @@ lambda() {
 	# 	print -R -n $prog
 	# }
 }
+
+alias lambda="noglob _lambda"
